@@ -1,26 +1,26 @@
 class Ferry < Formula
   desc "Send photos, videos and files between your phone and computer over Wi-Fi"
   homepage "https://github.com/lenajeremy/ferry"
-  version "1.0.0"
+  version "1.0.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/lenajeremy/ferry/releases/download/v1.0.0/ferry-cli-macos-arm64"
-      sha256 "266131b28d037ea83fadbb0f8ac031b6d4250eaa57a673c637c7a4d937a7708e"
+      url "https://github.com/lenajeremy/ferry/releases/download/v1.0.1/ferry-cli-macos-arm64"
+      sha256 "6b2c1a6f428d6d61eb6deb712d9edfd80681c1b3cd2257269e2778b618749d05"
     end
     on_intel do
-      url "https://github.com/lenajeremy/ferry/releases/download/v1.0.0/ferry-cli-macos-amd64"
-      sha256 "a62c2cf2eef543bbdeba667ac426152507ce0af01c095f6d65a0421e70bdd4c2"
+      url "https://github.com/lenajeremy/ferry/releases/download/v1.0.1/ferry-cli-macos-amd64"
+      sha256 "2bb88a56b876e48847d7ef37b56afb509c3946782ca32f01eea45aed35e3c3a3"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/lenajeremy/ferry/releases/download/v1.0.0/ferry-cli-linux-arm64"
-      sha256 "51c0ca2e4ab59306528042087f994f697c49d5b147080275726a5d529bfa7526"
+      url "https://github.com/lenajeremy/ferry/releases/download/v1.0.1/ferry-cli-linux-arm64"
+      sha256 "c3c1118c9f2654f231fd6a5776e94300aba5dd1fea6b81aacc22619cad5e40b5"
     end
     on_intel do
-      url "https://github.com/lenajeremy/ferry/releases/download/v1.0.0/ferry-cli-linux-amd64"
-      sha256 "b122f944822bae15c6e5dd91a54176f1b83af733a8a4be7e465620b33f7b7266"
+      url "https://github.com/lenajeremy/ferry/releases/download/v1.0.1/ferry-cli-linux-amd64"
+      sha256 "cb6294878b294c61e234b9e89fcd763d09f30ff82b7a045a6e9da00aa61161b8"
     end
   end
 

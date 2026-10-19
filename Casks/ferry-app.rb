@@ -1,8 +1,8 @@
 cask "ferry-app" do
-  version "1.0.0"
-  sha256 "c29a60e1382dddef55dfd06e3ed84028d1975da16dd1911340780637cbd72dcf"
+  version "1.0.1"
+  sha256 "84cfb60931915d76cc231b2a7d290b48fc8224c447a11a262a2cbbb49e83dc96"
 
-  url "https://github.com/lenajeremy/ferry/releases/download/v1.0.0/Ferry-mac.dmg"
+  url "https://github.com/lenajeremy/ferry/releases/download/v1.0.1/Ferry-mac.dmg"
   name "Ferry"
   desc "Send photos, videos and files between your phone and computer over Wi-Fi"
   homepage "https://github.com/lenajeremy/ferry"
